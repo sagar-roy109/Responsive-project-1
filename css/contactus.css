@@ -1,0 +1,135 @@
+/* Calling the font family to required html elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p,
+address,
+a {
+    font-family: 'Poppins', sans-serif;
+}
+.contact-page-container{
+	margin: 100px 0;
+}
+.contactus {
+    text-align: center;
+}
+
+.contactusWrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contactusContainer {
+    width: 45%;
+}
+
+.contactDetails {
+    width: 45%;
+}
+
+.contactusContainer>form,
+.contactDetails>dl {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.contactDetails dt {
+    position: relative;
+}
+
+.contactDetails p {
+    font-size: 22px;
+}
+
+.inputWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.formInput {
+    margin: 6px 0;
+    height: 31px;
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    color: #000;
+}
+
+.formInput.textarea {
+    height: auto;
+}
+
+.submitEnquiry {
+    height: 40px;
+    width: 125px;
+    margin: 5px auto;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.formIcon {
+    position: absolute;
+    height: 25px;
+    right: 20px;
+    top: 24px;
+}
+
+.contactIcon {
+    position: absolute;
+    top: 3px;
+    left: -32px;
+    height: 24px;
+}
+
+.contactDetails a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.contactDetails dd {
+    margin-bottom: 20px;
+}
+
+.contactusMapSection>iframe {
+    margin: 40px auto;
+    display: block;
+    width: 1100px;
+    height: 576px;
+}
+
+/* Added media Query for Tablets and Mobile Devices */
+@media (max-width: 767px) {
+    .contactusWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contactusContainer {
+        width: 95%;
+    }
+
+    .contactDetails {
+        width: 95%;
+    }
+
+    .contactusMapSection>iframe {
+        margin: 40px auto;
+        display: block;
+        width: 340px;
+        height: 576px;
+    }
+}

@@ -1,0 +1,83 @@
+/**** MEDIA QUERY ***/
+
+
+@media all and (max-width: 768px){
+	/** HOME PAGE **/
+	.nav-list li {
+    list-style: none;
+    display: block;
+	}
+	.home-category-container {
+    height: 898px;
+	}
+	.home-cat-post-f{
+		width: 100%;
+	}
+	.home-left-area{
+		width: 100%;
+		margin-right: 0;
+	}
+	.home-right-area{
+		width: 100%;
+		margin: 0;
+	}
+	.home-grid{
+		display: block;
+	}
+	.category-box-2, .category-box-3{
+		display: block;
+	}
+	.home-category:last-child{
+		margin: 0%;
+	}
+	.home-category{
+		width: 100%;
+		margin: 0 0 40px 0 ;
+	}
+	.home-category-image-6{
+		height: auto;
+	}
+
+	.author-box .img-container {
+    width: 100%;
+    display: flex;
+}
+.home-right-area .author-button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+/** ABOUT US PAGE ***/
+
+.about-grid {
+	display: flex;
+	flex-direction: column;
+}
+.about-left-area{
+	order: 2;
+	margin-top: 40px;
+}
+
+.contactusWrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.contactusContainer {
+	width: 95%;
+}
+
+.contactDetails {
+	width: 95%;
+}
+
+.contactusMapSection>iframe {
+	margin: 40px auto;
+	display: block;
+	width: 340px;
+	height: 576px;
+}
+}
